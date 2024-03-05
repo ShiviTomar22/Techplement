@@ -1,0 +1,112 @@
+.pageContainer {
+  background-color: #016855;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+  min-width: 400px;
+}
+
+.heading {
+  color: #333;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 8px;
+}
+
+.inputParent{
+    margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #016855;
+  border-radius: 6px;
+}
+
+.input:focus {
+  border: 1px solid #016855;
+  box-shadow: 0 0 5px #016855;
+  outline: none;
+}
+
+.input-error {
+    border-color: #ff0000; 
+  }
+
+  .error{
+    font-size: 12px;
+    color:red
+  }
+
+.submitButton {
+  width: 100%;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #016855;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: white;
+  color: #016855;
+}
+
+/*   
+  .submitButton:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  } */
+
+.separator {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.logo {
+  height: 100px;
+  background-color: #016855;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.signin {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+  text-align: center;
+}
+
+.link {
+  color: rgb(4, 4, 179);
+  text-decoration: underline;
+}
+

@@ -1,0 +1,24 @@
+:root{
+    --bg:white;
+    --bgSoft:white;
+    --text:#1C1C1C;
+    --textSoft:var(--black-40, rgba(28, 28, 28, 0.40));;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a{
+    color:inherit;
+    text-decoration: none ;
+}
+
+
